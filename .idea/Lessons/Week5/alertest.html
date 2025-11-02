@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alert Test</title>
+</head>
+<body>
+    <h1>Alert Test</h1>
+    <p id="testPara">A Test Paragraph</p>
+    <script>
+        const DEBUG = false;
+        function debug(s) {
+            if (DEBUG) {
+                console.log(s);
+            }
+        }
+        window.addEventListener("load", event => {      // Means this waits until the page loads before triggering this event
+            window.alert(document.getElementById("testPara").innerHTML);
+        })
+    </script>
+</body>
+</html>
