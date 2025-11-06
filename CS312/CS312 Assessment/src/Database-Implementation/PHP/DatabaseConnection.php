@@ -2,7 +2,7 @@
 //Connect to MySQL
 $host = "devweb2025.cis.strath.ac.uk";//Host to get from
 $user = "mjb23137";// My DS Username
-$pass = "lf56yWb58v$";//My MySQL password
+$pass = "hai7deelohCh";//My MySQL password
 $dbname = $user;
 $conn = new mysqli($host, $user, $pass, $dbname);
 
@@ -23,4 +23,5 @@ echo "<p>".$result->num_rows." rows found</p>";
 
 //Disconnect
 $conn->close();
+
 ?>
