@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+}
+form {
+    border-radius: 5px;
+    padding: 20px;
+    display: flow-root;
+    justify-content: space-between;
+}
+
+h1.heading {
+    font-size: large;
+}
+
+label {display: block;}
+
+input[type=text], select {
+    width: 20%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 20%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin: 18px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+ .heading {
+     text-align: center;
+     font-size: 100px;
+ }
+
+ h2 {
+     font-size: xxx-large;
+ }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    background-color: #89CFF0;
+}
+
+.container-entry {
+    background-color: #F5F5DC;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.container-entry a {    /* These are the buttons*/
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+
+.container-entry:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease-in-out;
+}
+
+.container-detail {
+    background-color: #f1f1f1;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.container-detail a {    /* These are the buttons*/
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 10px;
+}
+
+.container-detail:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease-in-out;
+}
+
+#HNavBar {
+    position: sticky;
+    top: 0;
+}
+#HNavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #93C572;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 135%;
+}
+
+#HNavBar li {
+    display: inline-block;
+}
+
+#HNavBar a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Kristen ITC";
+}
+
+#HNavBar a:hover {
+    background-color: #93C532 ;
+}
+
+#HNavBar a.active {
+    background-color: #04AA6D;
+}

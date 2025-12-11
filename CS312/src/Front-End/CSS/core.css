@@ -1,0 +1,910 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #82C8E5;
+}
+
+body.b {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC;
+}
+
+body.c {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://devweb2025.cis.strath.ac.uk/~mjb23137/CS312%20Assessment/src/Front-End/images/transpcart.jpg");
+}
+
+h2, p {
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, serif;
+}
+#IntroHead {
+    text-align: center;
+    font-size: 3.125rem;
+    color: white;
+}
+#HeadMid {
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+}
+#HeadLower {
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+}
+
+#TourPag {
+    color: white;
+}
+
+#detailHead {
+    text-align: center;
+    color: white;
+}
+
+#detail {
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#WebsiteDescription {
+    text-align: center;
+}
+
+#HNavBar {
+    position: sticky;
+    top: 0;
+}
+#HNavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #93C572;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 135%;
+}
+
+#HNavBar li {
+    display: inline-block;
+}
+
+#HNavBar a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Kristen ITC";
+}
+
+#HNavBar a:hover {
+    background-color: #93C552  ;
+}
+
+#HNavBar a.active {
+    background-color: #04AA6D;
+}
+
+.right {
+    display: flex;
+}
+
+#SDG {
+    width: 100%;
+    font-size: 1rem;
+    font-family: Arial, serif;
+}
+
+#WebsiteDescription {
+    font-size: 1rem;
+}
+
+li {
+    font-family: Arial, serif; /*Look for better font*/
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none; /* remove list bullets */
+    padding: 0px;
+}
+
+.pagination li a {
+    display: block; /* let links fill the list item */
+    padding: 8px 12px;
+    text-decoration: none;
+    border: 1px solid white;
+    color: black;
+    margin: 0 4px;
+    border-radius: 5px; /* add rounded borders */
+    background-color: #e8e8cf;
+}
+
+.pagination li a.active {
+    background-color: #F5F5DC;
+    color: black;
+}
+
+.pagination li a.disabled {
+    color: black;
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: #d0d0b6;
+}
+
+.pagination li a:hover:not(.active) {
+    background-color: #F5F5DC;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.container-entry {
+    background-color: #F5F5DC;
+    width: 375px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.063rem;
+    border-radius: 15px;
+    font-family: Arial, serif;
+}
+
+.container-entry a {    /* These are the buttons*/
+    background-color: #80CFF0;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: 30px 50px;
+    border-radius: 15px;
+}
+
+.container-entry:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}
+
+.container-detail {
+    background-color: #f1f1f1;
+    width: 375px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.063rem;
+    border-radius: 15px;
+}
+
+.container-detail a {    /* These are the buttons*/
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: 30px 50px;
+    border-radius: 15px;
+}
+
+.container-detail:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}
+
+#carttitle {
+    color: white;
+    font-size: 3.75rem;
+}
+
+.footer {
+    background-color: #F5F5DC;
+    text-align: center;
+}
+
+.detail {
+    text-align: center;
+}
+
+.detailHead {
+    text-align: center;
+}
+
+.BookingForm {
+    text-align: center;
+}
+
+.login {
+    text-align: center;
+    align-content: center;
+}
+
+.Cart {
+    display: none;
+    border-color: white;
+}
+
+#checkoutour {
+    color: white;
+}
+
+#fname {
+    font-weight: bold;
+}
+#email {
+    font-weight: bold;
+}
+#NumPeople {
+    font-weight: bold;
+}
+
+.FooterDiv {
+    background-color: #F5F5DC;
+    position: page;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.submit {
+    background-color: #80CFF0;
+    border-top-color: #80CFF0;
+    border-left-color: #80CFF0;
+    border-right-color: #80CFF0;
+    border-bottom-color: #80CFF0;
+    border-block-color: #80CFF0;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 15px;
+    align-content: center;
+    width: 275px;
+    height: 55px;
+    font-size: 1.063rem;
+    color: white;
+}
+.submit:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}
+
+#submitdetails {
+    background-color: #F5F5DC;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    margin: 5px auto;
+    border-radius: 15px;
+    align-content: center;
+    width: 275px;
+    height: 55px;
+    font-size: 1.063rem;
+    color: black;
+}
+.submitdetails:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+form {
+    border-radius: 5px;
+    padding: 20px;
+    display: flow-root;
+    justify-content: space-between;
+}
+
+h1.heading {
+    font-size: 1rem;
+}
+
+label {display: block;}
+
+input[type=text], select {
+    width: 20%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 20%;
+    padding: 8px;
+    margin: 8px 0;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.LoginSubmit {
+    width: 20%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px;
+    margin: 18px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.LoginSubmit:hover {
+    background-color: #45a049;
+}
+
+.AdminLoginLabel {
+    font-size: 1rem;
+}
+
+div.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container-heading {
+    font-size: xxx-large;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 75%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: absolute;
+    top: 8%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.content2 {
+    position: absolute;
+    top: 21.2%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.VideoTitle {
+    text-align: center;
+}
+
+/*Making space here*/
+
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.063rem;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 1.063rem;
+}
+
+table, th, td {
+    border:1px solid black;
+    margin: auto;
+    border-collapse: collapse;
+    padding: 10px;
+    background-color: white;
+}
+th {
+    background-color: #93C572;
+    color: white;
+}
+
+#BookingForm {
+    text-align: center;
+}
+
+#BookingFormTitle {
+    text-align: center;
+    color: white;
+}
+
+#ClearCart {
+    text-align: center;
+    width: 30%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: #F5F5DC;
+    font-size: 1.5rem;
+}
+
+#ClearCart:hover {
+    cursor:pointer;
+}
+
+#fnameBooking {
+    text-align: center;
+    width: 30%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+#emailBooking {
+    text-align: center;
+    width: 30%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+#NumPeopleBooking {
+    text-align: center;
+    width: 30%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+#BookingSubmit {
+    text-align: center;
+    width: 30%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: #F5F5DC;
+    font-size: 1.5rem;
+}
+
+#BookingSubmit:hover {
+    cursor: pointer;
+}
+
+#livetotalresult {
+    font-weight: bold;
+}
+
+
+#TourNameForm1 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#LocationForm1 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#DurationForm1 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#DepartureDateForm1 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#PriceForm1 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#DescriptionForm1 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#TourForm1 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: #F5F5DC;
+    font-size: 1rem;
+}
+
+#TourForm1:hover {
+    cursor: pointer;
+}
+
+#TourIDForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#TourNameForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#LocationForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#DurationForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#DepartureDateForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#PriceForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#DescriptionForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#StarRatingForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#TourForm2 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: #F5F5DC;
+    font-size: 1rem;
+}
+
+#TourForm2:hover {
+    cursor: pointer;
+}
+
+#TourIDForm3 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#TourForm3 {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: #F5F5DC;
+    font-size: 1rem;
+}
+
+#TourForm3:hover {
+    cursor: pointer;
+}
+
+#AdminOrders {
+    text-align: center;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------*/
+/*Reason arial is used is to be dyslexic friendly https://dyslexiahelp.umich.edu/latest/which-fonts-are-best-dyslexics/*/
+* {box-sizing: border-box;}
+body {font-family: Arial, sans-serif}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.autoslideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 0.938rem;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 0.75rem;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.autodot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.autofade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes autofade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 0.688rem}
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1900px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #C5C5C5;
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 0.938rem;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 0.75rem;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
