@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="src.ViewStudentDecisions">
+  <grid id="27dc6" binding="panelMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="999" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-14988955"/>
+      <opaque value="true"/>
+      <preferredSize width="1200" height="800"/>
+    </properties>
+    <border type="empty">
+      <size top="40" left="40" bottom="40" right="40"/>
+    </border>
+    <children>
+      <grid id="e0646" binding="panelHeader" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="30" left="30" bottom="30" right="30"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-14988955"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e0a6" class="javax.swing.JLabel" binding="titleLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="50"/>
+              <foreground color="-3479041"/>
+              <text value="Issue Student Decisions"/>
+            </properties>
+          </component>
+          <component id="55c5e" class="javax.swing.JButton" binding="homeButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14988955"/>
+              <focusPainted value="false"/>
+              <foreground color="-14988955"/>
+              <icon value="imageIcons/resizedHome.png"/>
+              <label value=""/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="564cf" binding="panelSub" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="40" left="40" bottom="40" right="40"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-14988955"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <hspacer id="a164">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="ffc44" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="4" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="26"/>
+              <foreground color="-3479041"/>
+              <text value="Student ID"/>
+            </properties>
+          </component>
+          <component id="bd6cc" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="4" use-parent-layout="false">
+                <preferred-size width="150" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3479041"/>
+            </properties>
+          </component>
+          <component id="255b" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="4" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Calibri" size="26"/>
+              <foreground color="-3479041"/>
+              <text value="Decision (check only one option)"/>
+            </properties>
+          </component>
+          <component id="59f40" class="javax.swing.JCheckBox" binding="awardCheckBox" default-binding="true">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="4" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14988955"/>
+              <font name="Calibri" size="26"/>
+              <foreground color="-3479041"/>
+              <text value="Award"/>
+            </properties>
+          </component>
+          <component id="22be4" class="javax.swing.JCheckBox" binding="resitCheckBox" default-binding="true">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14988955"/>
+              <font name="Calibri" size="26"/>
+              <foreground color="-3479041"/>
+              <text value="Resit"/>
+            </properties>
+          </component>
+          <component id="55108" class="javax.swing.JCheckBox" binding="withdrawCheckBox" default-binding="true">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14988955"/>
+              <font name="Calibri" size="26"/>
+              <foreground color="-3479041"/>
+              <text value="Withdraw"/>
+            </properties>
+          </component>
+          <component id="1c433" class="javax.swing.JButton" binding="issueDecisionButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-3479041"/>
+              <font name="Calibri" size="22"/>
+              <foreground color="-16448250"/>
+              <hideActionText value="false"/>
+              <text value="Issue Decision"/>
+            </properties>
+          </component>
+          <component id="339af" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="imageIcons/resizedStudentCap.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

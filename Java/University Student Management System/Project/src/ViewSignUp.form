@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="src.ViewSignUp">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="12" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="80" bottom="85" right="80"/>
+    <constraints>
+      <xy x="20" y="20" width="1347" height="683"/>
+    </constraints>
+    <properties>
+      <background color="-14988955"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="6ca84" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+        </properties>
+      </component>
+      <component id="d0865" class="javax.swing.JPasswordField" binding="passwordField2" default-binding="true">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+        </properties>
+      </component>
+      <component id="30bb8" class="javax.swing.JComboBox" binding="gender">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="18"/>
+          <foreground color="-16448250"/>
+          <model>
+            <item value="&lt;choose&gt;"/>
+            <item value="Male"/>
+            <item value="Female"/>
+            <item value="Non-Binary"/>
+            <item value="Other"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7483b" class="javax.swing.JComboBox" binding="qual">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="18"/>
+          <foreground color="-16448250"/>
+          <model>
+            <item value="&lt;choose&gt;"/>
+            <item value="PhD"/>
+            <item value="MA"/>
+            <item value="MSc"/>
+            <item value="MBA"/>
+            <item value="MEd"/>
+            <item value="MEng"/>
+            <item value="MPhil"/>
+            <item value="MRes"/>
+          </model>
+        </properties>
+      </component>
+      <component id="e9a65" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="166" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="First Name(s)"/>
+        </properties>
+      </component>
+      <component id="586c" class="javax.swing.JTextField" binding="fnField">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6d48f" class="javax.swing.JTextField" binding="snField">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+        </properties>
+      </component>
+      <component id="11de4" class="javax.swing.JLabel" binding="iconImage">
+        <constraints>
+          <grid row="1" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="8" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="imageIcons/book.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="db7a0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Surname"/>
+        </properties>
+      </component>
+      <component id="f81b7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="91" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Gender"/>
+        </properties>
+      </component>
+      <component id="1faa1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="11" height="36"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="dc6a7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="11" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Confirm Password"/>
+        </properties>
+      </component>
+      <component id="b69a2" class="javax.swing.JLabel" binding="qualText">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Qualification"/>
+        </properties>
+      </component>
+      <component id="90f98" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="11" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Email"/>
+        </properties>
+      </component>
+      <component id="ad219" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Date of Birth"/>
+        </properties>
+      </component>
+      <component id="7b98e" class="javax.swing.JLabel" binding="accTitle">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="50"/>
+          <foreground color="-3479041"/>
+          <text value="Account Creation:"/>
+        </properties>
+      </component>
+      <component id="2b078" class="javax.swing.JSpinner" binding="monthSpin">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+        </properties>
+      </component>
+      <component id="c1753" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="18"/>
+          <foreground color="-3479041"/>
+          <text value="Month"/>
+        </properties>
+      </component>
+      <component id="5ea24" class="javax.swing.JSpinner" binding="daySpin">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+        </properties>
+      </component>
+      <component id="668b5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="18"/>
+          <foreground color="-3479041"/>
+          <text value="Day"/>
+        </properties>
+      </component>
+      <component id="8cae7" class="javax.swing.JSpinner" binding="yearSpin">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+        </properties>
+      </component>
+      <component id="f72d1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="18"/>
+          <foreground color="-3479041"/>
+          <text value="Year"/>
+        </properties>
+      </component>
+      <component id="5c9e0" class="javax.swing.JTextField" binding="emailField">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="16"/>
+          <foreground color="-16448250"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ddce4" class="javax.swing.JButton" binding="createAccButton">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="28"/>
+          <foreground color="-16448250"/>
+          <text value="Create Account"/>
+        </properties>
+      </component>
+      <component id="84911" class="javax.swing.JButton" binding="backButton2">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14988955"/>
+          <borderPainted value="false"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="2"/>
+          <icon value="imageIcons/resizedBackArrow.png"/>
+          <text value=""/>
+          <verticalAlignment value="1"/>
+          <verticalTextPosition value="1"/>
+        </properties>
+      </component>
+      <component id="b20c3" class="javax.swing.JLabel" binding="studentTypeLabel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Degree Type"/>
+        </properties>
+      </component>
+      <component id="67b4a" class="javax.swing.JComboBox" binding="studentType">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="9" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="18"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="&lt;choose&gt;"/>
+            <item value="Undergraduate"/>
+            <item value="Postgraduate"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

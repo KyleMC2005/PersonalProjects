@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="src.ViewModule">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="40" bottom="40" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="890" height="624"/>
+    </constraints>
+    <properties>
+      <background color="-14988955"/>
+      <foreground color="-14988955"/>
+      <maximumSize width="1920" height="1080"/>
+      <minimumSize width="600" height="400"/>
+      <preferredSize width="1280" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="dec3d" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14988955"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4a341" binding="notesPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10508077"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <scrollpane id="27169" binding="materials1">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="22"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </scrollpane>
+              <component id="59a6" class="javax.swing.JLabel" binding="lectureNotesLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="22"/>
+                  <text value="Lecture Notes:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="95fad" binding="labPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-10508077"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <scrollpane id="76c46" binding="materials2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <verticalScrollBarPolicy value="22"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </scrollpane>
+              <component id="4d99d" class="javax.swing.JLabel" binding="labLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="22"/>
+                  <text value="Lab"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <splitpane id="9205">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14988955"/>
+          <dividerSize value="0"/>
+          <enabled value="false"/>
+          <foreground color="-14988955"/>
+          <resizeWeight value="0.75"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="62920" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <background color="-14988955"/>
+              <foreground color="-14988955"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7e454" class="javax.swing.JLabel" binding="moduleTitle">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3479041"/>
+                  <font name="Calibri" size="36"/>
+                  <foreground color="-3479041"/>
+                  <text value="Module Title"/>
+                </properties>
+              </component>
+              <component id="4c32f" class="javax.swing.JLabel" binding="moduleDescription">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-3479041"/>
+                  <font name="Calibri" size="22"/>
+                  <foreground color="-3479041"/>
+                  <text value="Module Description"/>
+                </properties>
+              </component>
+              <component id="bbff" class="javax.swing.JButton" binding="backButton1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-14988955"/>
+                  <icon value="imageIcons/resizedHome.png"/>
+                  <label value=""/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e64f" binding="panelProgress" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="20" left="20" bottom="20" right="20"/>
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <background color="-4265496"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="18337" class="javax.swing.JLabel" binding="progressLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="22"/>
+                  <foreground color="-16777216"/>
+                  <text value="Progress:"/>
+                </properties>
+              </component>
+              <component id="ed745" class="javax.swing.JLabel" binding="resultLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16777216"/>
+                  <font name="Calibri" size="20"/>
+                  <text value="Result:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>

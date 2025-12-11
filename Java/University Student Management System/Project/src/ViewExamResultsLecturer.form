@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="src.ViewExamResultsLecturer">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="80" bottom="40" right="80"/>
+    <constraints>
+      <xy x="20" y="20" width="1070" height="639"/>
+    </constraints>
+    <properties>
+      <background color="-14988955"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="5b372" class="javax.swing.JLabel" binding="ExamResultsLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="50"/>
+          <foreground color="-3479041"/>
+          <text value="Exam Results:"/>
+        </properties>
+      </component>
+      <vspacer id="46a05">
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="646ad" class="javax.swing.JLabel" binding="StudentIDLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Enter Student ID:"/>
+        </properties>
+      </component>
+      <component id="54feb" class="javax.swing.JLabel" binding="ModuleSelectLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Exam or Lab:"/>
+        </properties>
+      </component>
+      <component id="ac91b" class="javax.swing.JLabel" binding="ClassSelectLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Enter Module:"/>
+        </properties>
+      </component>
+      <component id="f8fcc" class="javax.swing.JLabel" binding="EnterGradeLabel">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Calibri" size="26"/>
+          <foreground color="-3479041"/>
+          <text value="Enter Grade:"/>
+        </properties>
+      </component>
+      <component id="f7d8d" class="javax.swing.JButton" binding="submitGradeButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font name="Calibri" size="28"/>
+          <foreground color="-16777216"/>
+          <text value="Submit Grade"/>
+        </properties>
+      </component>
+      <component id="26d9" class="javax.swing.JTextField" binding="enterStudentID">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font size="16"/>
+        </properties>
+      </component>
+      <component id="ae29a" class="javax.swing.JTextField" binding="SelectModuleCombo">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font size="18"/>
+        </properties>
+      </component>
+      <component id="8579" class="javax.swing.JTextField" binding="EnterGradeText">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font size="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8338e" class="javax.swing.JLabel" binding="BookIcon">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="imageIcons/book.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2489" class="javax.swing.JButton" binding="homeButton">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14988955"/>
+          <foreground color="-14988955"/>
+          <icon value="imageIcons/resizedHome.png"/>
+          <label value=""/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6ac43" class="javax.swing.JComboBox" binding="examOrLab">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-3479041"/>
+          <font size="16"/>
+          <foreground color="-16448250"/>
+          <model>
+            <item value="Exam"/>
+            <item value="Lab"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
